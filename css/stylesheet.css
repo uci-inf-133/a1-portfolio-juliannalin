@@ -1,0 +1,153 @@
+
+h1 {
+
+    font-family: 'Chewy', sans-serif;
+    color: 2E452D;
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h2 {
+    color: #FFF;
+    font-family: "League Spartan";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    align-self: stretch;
+}
+
+body {
+    background-color: #FFFEF3;
+    display: inline-flex;
+    padding-top: 3.125rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.8125rem;
+
+}
+
+.hero_intro {
+    display: flex;
+    padding: 1.875rem 11.25rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+
+
+}
+.intro_card {
+    display: flex;
+    padding: 5rem 4.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    border-radius: 1.875rem;
+    background: #7C8E6A;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    
+}
+
+.left_section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.9375rem;
+    flex: 1 0 0;
+    color: #FFFEF3;
+
+}
+
+img {
+    max-width: 100%; /* Ensures the image doesn't exceed the container's width */
+    height: auto;    /* Maintains the image's aspect ratio */
+    background: url(<path-to-image>) lightgray 50% / contain no-repeat;
+
+}
+
+.button {
+    display: flex;
+    padding: 1.12581rem 1.50106rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75056rem;
+    border-radius: 1.20088rem;
+    border: 3px solid #F1F0E1;
+    background: #7C8E6A;
+    
+}
+p {
+    max-width: 800px;
+}
+
+/*NAV BAR STYLING*/
+nav {
+    display: flex;
+    height: 5rem;
+    padding: 0 4rem;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 2.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+
+    background: #FFF;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    display: flex;
+width: 21.3125rem;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul li{
+    font-family: "League Spartan";
+    display: flex;
+    height: 5rem;
+    padding: 0 4rem;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+
+}
+
+nav ul a{
+    color: #2A3B27;
+    text-align: center;
+    font-family: "League Spartan";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 2.175rem */
+    letter-spacing: -0.0075rem;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+/*footer styling*/
+footer {
+    background-color: #2E452D;
+    display: flex;
+    width: 108rem;
+    padding-top: 3.4375rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+}
+footer p {
+    color:#F1F0E1;
+}
