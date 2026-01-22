@@ -11,26 +11,33 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
 
-
+- At least one image, with descriptive alt attribute(s)
+- Appropriate headings and paragraph text
+- Links to external page(s)
+- Multiple pages, with appropriate navigation between them
+- Semantic HTML tags like aside or footer
 
 (b) CSS features
-
+ - Modifying padding and margins for styling purposes
+- Modifying link, text color, or other colors to be visually appealing
+- Leveraging Bootstrap CSS helpers for better layouts
+- Adding custom font(s) from Google fonts to add more personality (make sure to include ap
 
 
 (c) Advanced features
-
+  - Navigation bar
 
 
 
@@ -43,7 +50,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-
+I asked generative AI to summerize how I could use bootstrap more efficiently to build my portfolio. I asked it to provide me examples and how to use it. I used W3Schools website for looking up syntax.
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
