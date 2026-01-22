@@ -79,6 +79,11 @@ p {
     color: #2A3B27;
 }
 
+.aboutsection {
+    padding: 3em;
+
+}
+
 /* Buttons */
 .viewbutton {
     display: inline-block;
@@ -96,7 +101,10 @@ p {
     background-color: #7C8E6A;
     color: #FFF !important;
 }
+.rowbuttons {
+    color:blue;
 
+}
 /* Images */
 .image-container {
     width: 100%;
@@ -135,4 +143,30 @@ footer p {
     .nav-logo h3 {
         font-size: 2rem;
     }
+
+    .projectCard {
+        margin: 3em;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+    /*phone*/
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 1.2rem; }
+    h3 { font-size: 2rem; }
+    
+    .nav-logo h3 {
+        font-size: 2rem;
+    }
+
+    .projectCard {
+        margin: 2em;
+    }
+    .intro_card {
+        margin: 2em;
+    }
+
+
 }

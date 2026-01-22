@@ -12,7 +12,7 @@ EMAIL: juliayl6@uci.edu
   <meta name="description" content="Julianna Lin's Portfolio">
   <meta name = "viewport" content = "width=device-width, initial-scale = 1">
    <!-- you would link to an external stylesheet here! -->
-    <link rel="stylesheet" href="css/stylesheet.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -22,31 +22,64 @@ EMAIL: juliayl6@uci.edu
         <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
    <!-- you would also link to Bootstrap here! -->
     <link rel = "stylesheet" href = "bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/about.css">
   <title>ZotShop</title>
 </head>
 <body>
-    <nav class = "navbar">  
-        <ul class = "mynav">
-            <li><h3>JL</h3></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="">Resume</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white my-4 rounded-pill border">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand nav-logo" href="#">
+                <h3>Julianna Lin</h3>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-lg-4 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <div> <!--hero section-->
-        <h1>ZotShop</h1>
-        <h2>A UC Irvine based secondhand shopping app</h2>
-        <button>View Case study</button>
-        <button>View the prototype</button>
-        <img> <!--add photo here-->
+
+    <div class="p-4"> <!--hero section-->
+        <div class = "row align-items-center w-100">
+                    <div class ="col-md-6 text-start mb-4 mb-md-0 left_project">
+                        <h2>October - December 2025</h2>
+                        <h3 class = "text-start">Zotshop</h3>
+                        <p>A UC Irvine based second hand shopping app</p>
+                        <div class = "row align-items-center rowbuttons">
+                            <button class = "viewbutton text-dark"><a style = "text-decoration: none; color:black;"href = "https://www.figma.com/deck/HXbWBLDeZcMzs2HAQMjUpN/ZotShop-Case-Study?node-id=26-2&t=0VVPnqi6uIFi8I1W-1">View the case study</a></button>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6">
+                        <div class = "image-container mx-auto">
+                            <img src = "images/zotshopmockup.png" alt = "Mockups of zotshop app" class = "portrait-img img-fluid">
+                        </div>
+                    </div>
+        </div>
     </div>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
+
   <footer>
         <p>Julianna Lin 2026</p>
+        <p>
+        <a href="http://validator.w3.org/check?uri=referer">
+        W3C validator
+        </a>
+    </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

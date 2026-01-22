@@ -144,6 +144,18 @@ img {
     flex-wrap: wrap;
 
 }
+
+.projectlanding {
+    display: flex;
+    padding: 1.5rem 4%;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    max-width: 800px;
+    gap: 0.525rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
 .work {
     margin: 3em;
 }
@@ -291,8 +303,8 @@ footer p {
 /* Styles for tablets (min-width: 768px) */
 @media screen and (min-width: 768px) {
   .image-container {
-    width: 300px; /* Fixed width for tablets */
-    height: 450px; /* Fixed height for tablets */
+    width: 150px; /* Fixed width for tablets */
+    height: 225px; /* Fixed height for tablets */
     display: flex;
 
   }
