@@ -84,27 +84,28 @@ p {
 
 }
 
-/* Buttons */
-.viewbutton {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    border-radius: 10px;
-    border: 3px solid #7C8E6A;
-    background-color: transparent;
-    font-family: "League Spartan";
+
+.button-link {
+    display: inline-block; 
+    text-decoration: none; 
+    
+    background-color: #7C8E6A; 
+    color: #FFFEF3;        
+    
+    padding: 10px 20px; 
+    border:none;
+    border-radius: 5px;
+    font-family: "League Spartan", sans-serif;
     font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    text-align: center;
+    transition: background-color 0.3s ease;
 }
 
-.viewbutton:hover {
-    background-color: #7C8E6A;
-    color: #FFF !important;
+.button-link:hover {
+    background-color: #5a6b4d;
+    color: #FFFFFF;
 }
-.rowbuttons {
-    color:blue;
 
-}
 /* Images */
 .image-container {
     width: 100%;

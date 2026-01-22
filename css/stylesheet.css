@@ -87,8 +87,8 @@ body {
 }
 
 img {
-    max-width: 100%; /* Ensures the image doesn't exceed the container's width */
-    height: auto;    /* Maintains the image's aspect ratio */
+    max-width: 100%;
+    height: auto;
 
 }
 
@@ -233,7 +233,6 @@ nav ul a{
 
 @media screen and (max-width: 700px) {
     .mynav {
-        /* Allow height to grow automatically when items stack */
         height: fit-content; 
         flex-direction: column; /* Stack Logo and Links vertically */
         padding: .01rem;
@@ -256,7 +255,7 @@ nav ul a{
 /* Tablet / Laptop screens (approx 1024px and below) */
 @media screen and (max-width: 1024px) {
     nav ul li {
-        padding: 0 1.5rem; /* Drastically reduce padding from 4rem to 1.5rem */
+        padding: 0 1.5rem;
     }
 }
 /*footer styling*/
@@ -277,7 +276,7 @@ footer p {
 .image-container {
   width: 200px;
   height: 300px;
-  /* Optional: add a background color to see the container size */
+
   background-color: transparent; 
   border-radius: 10%;
   overflow: hidden;
@@ -287,7 +286,7 @@ footer p {
 .portrait-img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Scales the image to fit the container without stretching or clipping */
+  object-fit: contain;
   border-radius: 16px;
 
 }
@@ -310,7 +309,6 @@ footer p {
   }
 }
 
-/* Styles for another specific viewport size, e.g., desktops (min-width: 1024px) */
 @media screen and (min-width: 1024px) {
   .image-container {
     width: 400px; /* Fixed width for desktops */

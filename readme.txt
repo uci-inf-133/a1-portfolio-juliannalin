@@ -27,34 +27,34 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 - Appropriate headings and paragraph text
 - Links to external page(s)
 - Multiple pages, with appropriate navigation between them
-- Semantic HTML tags like aside or footer
+- Semantic HTML tags like footer
 
 (b) CSS features
  - Modifying padding and margins for styling purposes
 - Modifying link, text color, or other colors to be visually appealing
 - Leveraging Bootstrap CSS helpers for better layouts
-- Adding custom font(s) from Google fonts to add more personality (make sure to include ap
+- Adding custom font(s) from Google fonts to add more personality
 
 
 (c) Advanced features
-  - Navigation bar
+  Navigation bar that turns into a hamburger button n smaller screen sizes
 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
+No, but I got a waring about how there wasn't space in between my tag attributes. This didn't seem like an accessability problem since the webpage still could have functioned and displayed properly.
 
 
 4. How long, in hours, did it take you to complete this assignment?
-
+About 7-9 hours
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-I asked generative AI to summerize how I could use bootstrap more efficiently to build my portfolio. I asked it to provide me examples and how to use it. I used W3Schools website for looking up syntax.
+I asked generative AI to summerize how I could use bootstrap more efficiently to build my portfolio. I asked it to provide me examples and how to use it. I used W3Schools website for looking up syntax. I also googled how to make the nav bar change to a hamburger button when the screen size is smaller
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+I helped Eren Kim with units for fonts to make it responsive.
 
 
 7. Is there anything special we need to know in order to run your code?
